@@ -1,0 +1,19 @@
+{
+  "name": "protractor-poc",
+  "version": "1.0.0",
+  "description": "protractor poc",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/protractor/bin/protractor protractor.conf.js"
+  },
+  "author": "kannan",
+  "license": "ISC",
+  "dependencies": {
+    "protractor": "^7.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^8.2.1"
+  }
+}
