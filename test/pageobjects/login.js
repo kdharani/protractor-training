@@ -2,7 +2,7 @@ const { element, browser } = require("protractor");
 
 var LoginPage = function() {
 
-    var signIn = $('.actions-list li:nth-child(5) a') 
+    var signIn = $('.actions-list li:nth-child(4) a') 
     var inputUsername = $('#new_session_username')
     var inputPassword = $('#new_session_password')
     var btnSubmit = $('#sign_in')
