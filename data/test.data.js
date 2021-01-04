@@ -3,5 +3,5 @@ module.exports = {
     password:'Testing@123',
     boardName:'test2',
     searchKey:'Trucks',
-    count: '3'
+    count: '6'
 }
