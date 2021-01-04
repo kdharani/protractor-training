@@ -21,7 +21,7 @@ describe('iStock functional tests', () => {
         SearchPage.setBoardName(data.boardName);
         SearchPage.clickCreateBtn();
         SearchPage.hoverOnBoardLnk();
-        //expect(SearchPage.getBoardTitle(), 'Create board failed').to.eventually.equal(data.boardName);
+        expect(SearchPage.getBoardTitle(), 'Create board failed').to.eventually.equal(data.boardName);
     });
 
     it('should able to search for photo', () => {
